@@ -1,0 +1,34 @@
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 45px;
+    margin: auto;
+}
+.products-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: rgb(176, 164, 196);
+    
+}
+.products-element-name{
+    margin-top: 5px, 20px;
+}
+.products-element-img{
+    width: 100%;
+    height: 270px;
+    object-fit: contain;
+}
+.products-element-in-shop{
+    
+}
+.products-element-price{
+    
+}
+.products-element-add{
+    cursor: pointer;
+    outline:  none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+}
